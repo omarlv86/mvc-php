@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color:red"><?php echo $this->mensaje; ?></h1>
+    <h2>Sección de ayuda</h2>
 </body>
 </html>

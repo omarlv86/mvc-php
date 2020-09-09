@@ -7,7 +7,10 @@ class Nuevo extends Controller{
 
     }
 
-
+    function registrarAlumno(){
+        echo "Alumno creado";
+        $this->model->insert();
+    }
 }
 
 ?>

@@ -2,7 +2,7 @@
 
 class View{
     function __construct(){
-        echo 'Vista base';
+        //echo 'Vista base';
     }
 
     function render($nombre){

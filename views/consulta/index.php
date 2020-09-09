@@ -9,7 +9,7 @@
     <?php require 'views/header.php'; ?>
 
     <div class="container my-4">
-        <h1 class="center">Seccion de ayuda</h1>
+        <h1 class="center">Seccion de consulta</h1>
     </div>
     <?php require 'views/footer.php'; ?>
 </body>

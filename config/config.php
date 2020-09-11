@@ -3,7 +3,7 @@
 define('URL', 'http://localhost/mvc/');
 
 define('HOST', 'localhost');
-define('DB', '');
+define('DB', 'mvc');
 define('USER', 'root');
 define('PASSWORD', '');
 define('CHARSET', 'utfmb4');

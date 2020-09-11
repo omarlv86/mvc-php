@@ -21,15 +21,15 @@
                 <form action="<?php echo constant('URL');?>nuevo/registrarAlumno" method="POST">
                     <div class="form-group">
                         <label for="matricula">Matricula</label>
-                        <input type="number" class="form-control" id="matricula" placeholder="Ingrese la matricula">
+                        <input type="number" class="form-control" id="matricula" name="matricula" placeholder="Ingrese la matricula" required>
                     </div>
                     <div class="form-group">
                         <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre(s)">
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre(s)" required>
                     </div>
                     <div class="form-group">
                         <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido(s)">
+                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese su apellido(s)" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>

@@ -15,7 +15,7 @@ class NuevoModel extends Model {
             
         }catch(PDOException $e){
             //echo $e->getMessage();
-            echo "Ya existe esa matricula";
+            //echo "Ya existe esa matricula";
             return false;
         }
         

@@ -20,6 +20,8 @@
                             <th>Matricula</th>
                             <th>Nombre</th>
                             <th>Apellido</th>
+                            <th></th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -34,8 +36,8 @@
                             <td> <?php echo $alumno->matricula; ?> </td>
                             <td> <?php echo $alumno->nombre; ?> </td>
                             <td> <?php echo $alumno->apellido; ?> </td>
-                            <td><a class="btn btn-primary" href="#">Editar</a></td>
-                            <td> <a class="btn btn-danger" href="#">Eliminar</a></td>
+                            <td><a class="btn btn-primary" href="<?php echo constant('URL') . 'consulta/verAlumno/' . $alumno->matricula; ?>">Editar</a></td>
+                            <td> <a class="btn btn-danger" href="<?php echo constant('URL') . 'consulta/eliminarAlumno/' . $alumno->matricula; ?>">Eliminar</a></td>
                         </tr>
                             <?php } ?>
                     </tbody>

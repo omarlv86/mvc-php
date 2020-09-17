@@ -10,12 +10,14 @@ botones.forEach(boton =>{
         if(confirm){
             //solicitud AJAX
             httpRequest("http://localhost/mvc/consulta/eliminarAlumno/" + matricula, function(){
-                console.log(this.responseText);
+                //console.log(this.responseText);
 
+                document.querySelector("#respuesta").innerHTML = this.responseText;
                 const tbody = document.querySelector("#tbody-alumnos");
                 const fila = document.querySelector("#fila-"+ matricula);
 
                 tbody.removeChild(fila);
+
             });
         }
     });
